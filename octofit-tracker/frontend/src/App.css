@@ -1,0 +1,100 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255,255,255,0.85);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.card-title, h2, h1 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.card {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border-radius: 12px;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e3f2fd;
+}
+.table-bordered {
+  border: 2px solid #007bff;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+  color: #ffd700;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 1px solid #007bff;
+}
+
+.modal-content {
+  border-radius: 16px;
+  background: #f8f9fa;
+}
+.modal-header {
+  background: #007bff;
+  color: #fff;
+  border-bottom: 2px solid #00c6ff;
+}
+.modal-footer {
+  border-top: 2px solid #00c6ff;
+}
